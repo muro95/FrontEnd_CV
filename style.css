@@ -1,0 +1,331 @@
+@font-face {
+    font-family: "Times New Roman";
+    src: url("times new roman bold.ttf") format("woff");
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 0;
+}
+
+.wrapper{
+}
+
+.right-sidebar{
+    position: relative;
+    height: 400px;
+    background-color: white;
+    width: 60%;
+    top: 0;
+    float: left;
+}
+
+.right-sidebar>p{
+    position: relative;
+    top: 50px;
+    margin: 0 0 0 60px;
+    font-size: 25px;
+}
+
+#burger{
+    position: relative;
+    top: 60px;
+}
+
+.experience{
+    position: relative;
+    font-size: 50px;
+    margin: 0 0 0 30px;
+    padding: 30px;
+    top: 30px;
+}
+.education{
+    position: relative;
+    font-size: 50px;
+    margin: 0 0 0 30px;
+    padding: 30px;
+    top: 10px;
+}
+#experiencelist{
+    position: relative;
+    top: 70px;
+    margin: 0 0 0 40px;
+}
+#chill{
+    position: relative;
+    top: 105px;
+}
+#chillList{
+    position: relative;
+    top: 115px;
+    margin: 0 0 0 40px;
+}
+/*.header{*/
+/*width: 200px;*/
+/*height: 200px;*/
+/*background: black;*/
+/*position: relative;*/
+/*top: 50%;*/
+/*left: 50%;*/
+/*transform: translate(-50%, -50%);*/
+/*overflow: hidden;*/
+/*border-radius: 50%;*/
+/*}*/
+.image{
+    width: 40%;
+    height: 400px;
+    background-color: burlywood;
+    top: 50%;
+    left: 50%;
+    float: left;
+}
+
+img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    float: left;
+}
+
+.left-sidebar{
+    width: 40%;
+    height: auto;
+    background-color: burlywood;
+    float: left;
+}
+
+.right-sidebar1{
+    width: 60%;
+    background-color: white;
+    height: 718px;
+    float: left;
+}
+
+.college{
+    position: relative;
+    top: 70px;
+    margin-left: -245px;
+    font-size: 25px;
+}
+.codegym{
+    position: relative;
+    top: 95px;
+    font-size: 25px;
+    margin-left: 60px;
+}
+.interest{
+    position: relative;
+    top: 250px;
+    padding: 60px;
+    font-size: 50px;
+}
+.interestbranches{
+    position: relative;
+    top: 290px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+h2{
+    margin: 0 0 0 70px;
+    padding: 0;
+    font-size: 70px;
+}
+
+.webdeveloper{
+    margin: 0 0 0 70px;
+    font-size: 25px;
+}
+
+#listinfo{
+    margin: 0 0 0 30px;
+    list-style-type: none;
+}
+
+#telephone{
+    margin: 10px 10px 10px 0;
+}
+
+#email{
+    margin: 10px 10px 10px 0;
+}
+#address{
+    margin: 10px 10px 10px 0;
+}
+#website{
+    margin: 10px 10px 10px 0;
+}
+a.profile{
+    margin: 0 0 0 70px;
+    font-size: 50px;
+    font-family: "Times New Roman";
+}
+
+.profileline1{
+    margin: 0 50px 0 70px;
+}
+p{
+    font-stretch: expanded;
+}
+
+.technicalskills{
+    margin: 0 0 0 70px;
+    font-size: 50px;
+    font-family: "Times New Roman";
+}
+
+#progress {
+    background: #e7eae7;
+    height: 17px;
+    width: 300px;
+    margin-right: 60px;
+    margin-bottom: 11px;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: #9D9C9D;
+    width: 80%;
+    height: 100%;
+}
+#progress1 {
+    background: #e7eae7;
+    height: 17px;
+    width: 300px;
+    margin-right: 60px;
+    margin-bottom: 11px;
+}
+
+#progress1:after {
+    content: '';
+    display: block;
+    background: #9D9C9D;
+    width: 60%;
+    height: 100%;
+}
+#progress2 {
+    background: #e7eae7;
+    height: 17px;
+    width: 300px;
+    margin-right: 60px;
+    margin-bottom: 11px;
+}
+
+#progress2:after {
+    content: '';
+    display: block;
+    background: #9D9C9D;
+    width: 50%;
+    height: 100%;
+}
+#progress3 {
+    background: #e7eae7;
+    height: 17px;
+    width: 300px;
+    margin-right: 60px;
+    margin-bottom: 11px;
+}
+
+#progress3:after {
+    content: '';
+    display: block;
+    background: #9D9C9D;
+    width: 55%;
+    height: 100%;
+}
+#progress4 {
+    background: #e7eae7;
+    height: 17px;
+    width: 300px;
+    margin-right: 60px;
+    margin-bottom: 11px;
+}
+
+#progress4:after {
+    content: '';
+    display: block;
+    background: #9D9C9D;
+    width: 70%;
+    height: 100%;
+}
+#progress5 {
+    background: #e7eae7;
+    height: 17px;
+    width: 300px;
+    margin-right: 60px;
+}
+
+#progress5:after {
+    content: '';
+    display: block;
+    background: #9D9C9D;
+    width: 80%;
+    height: 100%;
+}
+
+.left-sidebar1{
+    width: 14%;
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+}
+
+#skillinfo{
+    list-style-type: none;
+    margin: 0 0 0 30px;
+}
+
+.left-sidebar2{
+    width: 26%;
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+}
+
+.right-sidebar2{
+    width: 60%;
+    background-color: white;
+    float: left;
+    height: 200px;
+}
+
+.reference{
+    position: relative;
+    top: 0px;
+    margin-left: 60px;
+    font-size: 50px;
+}
+
+.referencename{
+    position: relative;
+    top: 60px;
+    margin-left: 60px;
+}
+.referencerole{
+    position: relative;
+    top: 70px;
+    margin-left: 60px;
+}
+#html{
+    margin: 0 10px 10px 0;
+}
+#css{
+    margin: 0 10px 10px 0;
+}
+#javascript{
+    margin: 0 10px 10px 0;
+}
+#sql{
+    margin: 0 10px 10px 0;
+}
+#java{
+    margin: 0 10px 10px 0;
+}
+#unix{
+    margin: 0 10px 10px 0;
+}
